@@ -478,7 +478,7 @@ check_login_info(){
 show_usage() {
     green "X-UI English v${last_version} Installation is Completed, The Panel has been Started"
     echo -e ""
-    echo -e "${GREEN} --------------------------------------------------------------------- ${PLAIN}"
+    echo -e "${GREEN} --------------------------------------------------------------------  ${PLAIN}"
     echo -e "${GREEN}   __   __           _    _ _____    ______             _ _     _      ${PLAIN}"
     echo -e "${GREEN}   \ \ / /          | |  | |_   _|  |  ____|           | (_)   | |     ${PLAIN}"
     echo -e "${GREEN}    \ V /   ______  | |  | | | |    | |__   _ __   __ _| |_ ___| |__   ${PLAIN}"
