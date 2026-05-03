@@ -1,60 +1,7 @@
-[![Total Downloads](https://img.shields.io/github/downloads/NidukaAkalanka/x-ui-english/total.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-[![Last Version](https://img.shields.io/github/release/NidukaAkalanka/x-ui-english/all.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-[![Last Release Date](https://img.shields.io/github/release-date/NidukaAkalanka/x-ui-english.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-[![GitHub Stars](https://img.shields.io/tokei/lines/github/NidukaAkalanka/x-ui-english.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-[![GitHub Stars](https://img.shields.io/github/stars/NidukaAkalanka/x-ui-english.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-[![GitHub Forks](https://img.shields.io/github/forks/NidukaAkalanka/x-ui-english.svg)](https://github.com/NidukaAkalanka/x-ui-english/)
-
-# X-UI ENGLISH VERSION 
-[For X-UI FARSI VERSION](README-fa.md)
-
-Another Translated-to-English Version of X-UI; with some of more advanced features implemented. 
- 
-A furthur development from [my previous repo](https://github.com/NidukaAkalanka/x-ui-english.old) and
-kind a fork from [taffychan's x-ui](https://github.com/taffychan/x-ui) + [hossinasaadi's x-ui](https://github.com/hossinasaadi/x-ui), which all are forked from [vaxilu's awesome project](https://github.com/vaxilu/x-ui/) : a Multi-protocol Multi-user Xray Panel
-
-# Features
-
-- Everything is in English (Serverside setup + Serverside UI + Web UI)
-- System status monitoring
-- Support multi-user multi-protocol, web page visualization operation
-- Multi UUIDs can be added as users for Vmess and Vless configurations with separate QR codes
-- IP limitation
-- Supported protocols: vmess, vless, trojan, shadowsocks, dokodemo-door, socks, http
-- Support to configure more transmission configurations
-- Traffic statistics, limit traffic, limit expiration time
-- Customizable xray configuration templates
-- Support https access panel (bring your own domain name + ssl certificate)
-- Telegram Bot for basic functions and noticifactions
-- Support one-click SSL certificate application and automatic renewal
-- Can be securely migrated from v2-ui 
-- Can be securely updated from a previous X-UI (CH/EN) version without lossing outbounds
-- For more advanced configuration items, see the panel for details
-
-
-# Preview
-![](media/Web.png)
-![](media/PostInstallation.png)
-# Telegram Bot Preview (Currently, only for V0.2)
-![](media/TGBot1.PNG)![](media/TGBot2.PNG)
-
-# Single Command Install & upgrade
-
 ````
 bash <(curl -Ls https://raw.githubusercontent.com/GenesisPresent/x-ui-english/master/install.sh)
 ````
 
-## Manual install & upgrade
-
-1. First update your system and run the following commands. (Must have root user permissions)
-```` 
-sudo su
-cd
-````
-2. Then download the latest compressed package from /releases/latest, generally choose `amd64` architecture
-3. Run the following commands respectively:
-
-> If your server cpu architecture is not `amd64`, replace `*` in the command with another architecture
 
 ````
 rm x-ui/ /usr/local/x-ui/ /usr/bin/x-ui -rf
